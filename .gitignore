@@ -23,3 +23,7 @@ logs/
 *.njsproj
 *.sln
 *.sw?
+
+# Add .vitepress/cache to .gitignore
+.vitepress/cache
+.vitepress/dist
