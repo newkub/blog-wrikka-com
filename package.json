@@ -6,6 +6,7 @@
     "@unocss/preset-web-fonts": "^66.1.0-beta.8",
     "@unocss/vite": "^66.1.0-beta.8",
     "biome": "0.3.3",
+    "dprint": "^0.49.1",
     "mermaid": "^11.6.0",
     "unocss": "^66.1.0-beta.8",
     "vitepress": "^1.6.3",
@@ -16,7 +17,7 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "format": "biome format --write .",
+    "format": "dprint fmt && biome format --write",
     "lint": "biome check ."
   },
   "dependencies": {
