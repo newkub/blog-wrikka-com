@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Document background -->
+  <rect x="20" y="20" width="160" height="160" rx="10" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  
+  <!-- Document lines -->
+  <line x1="40" y1="50" x2="160" y2="50" stroke="#666" stroke-width="1"/>
+  <line x1="40" y1="70" x2="160" y2="70" stroke="#666" stroke-width="1"/>
+  <line x1="40" y1="90" x2="160" y2="90" stroke="#666" stroke-width="1"/>
+  <line x1="40" y1="110" x2="120" y2="110" stroke="#666" stroke-width="1"/>
+  
+  <!-- Heading element -->
+  <rect x="40" y="130" width="120" height="20" rx="3" fill="#e0e0e0"/>
+  
+  <!-- Document title -->
+  <text x="100" y="35" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Blog Article</text>
+  
+  <!-- Pencil -->
+  <path d="M150,140 L170,120 L180,130 L160,150 Z" fill="#ffc107" stroke="#333" stroke-width="1"/>
+  <line x1="150" y1="140" x2="160" y2="150" stroke="#333" stroke-width="1"/>
+  <path d="M170,120 L180,130 L185,125 L175,115 Z" fill="#ff9800" stroke="#333" stroke-width="1"/>
+</svg>
