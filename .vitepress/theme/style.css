@@ -139,3 +139,7 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+.vp-doc a {
+	text-decoration: none;
+}
